@@ -19,7 +19,7 @@ function onContainerChange() {
     next = itemOnSite.lastElementChild.nextSibling,
     button = document.createElement("button"),
     img = document.createElement('img'),
-    repository = itemOnSite.lastElementChild.title.match(/([A-Za-z_-]*):/)[1],
+    repository = itemOnSite.lastElementChild.title.match(/([A-Za-z0-9_-]*):/)[1],
     branch = itemOnSite.lastElementChild.lastElementChild.innerHTML;
 
   button.className = 'btn btn-sm';
