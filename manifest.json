@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "Bee github button",
-  "description": "This extension opens new window with bee route in PR",
-  "version": "1.0.1",
+  "description": "This extension opens a new window with bee route in github pull request",
+  "version": "1.0.2",
 
   "browser_action": {
     "default_icon": "bee.png"
